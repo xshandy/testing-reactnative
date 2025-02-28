@@ -1,6 +1,5 @@
 import { Text, View, StyleSheet } from "react-native"
 import { useFonts } from "expo-font"
-import { Raleway_200ExtraLight } from "@expo-google-fonts/raleway"
 import { FugazOne_400Regular } from "@expo-google-fonts/fugaz-one"
 
 function PZHeader({ children }) {
@@ -23,6 +22,7 @@ export default PZHeader
 
 const styles = StyleSheet.create({
     container: {
+        marginTop: "100px",
         width: "100%",
         alignItems: "center",
         backgroundColor: "#87BC4E",
